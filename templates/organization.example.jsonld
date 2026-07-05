@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Clear Cited",
+  "url": "https://clearcited.com",
+  "logo": "https://clearcited.com/apple-touch-icon.png",
+  "description": "AEO/GEO for B2B SaaS and developer tools — get recommended and cited by ChatGPT, Perplexity, Gemini, and Google AI.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Toronto",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/clearcited",
+    "https://x.com/clearcited",
+    "https://github.com/Clear-Cited"
+  ]
+}
