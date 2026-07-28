@@ -19,3 +19,7 @@ keywords:
   - ai-search
   - large-language-models
 ```
+swh:1:dir:6522ee0039e55a8df410952e70c53e3b116cfb5b;
+origin=https://github.com/Clear-Cited/schema-for-ai;
+visit=swh:1:snp:47e4a266290fb6706ce9ca9c961cc23ebe04a4c9;
+anchor=swh:1:rev:65aa7c573cd3749b4343cd154670f7de6687da8b
