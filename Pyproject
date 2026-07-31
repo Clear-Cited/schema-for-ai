@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "schema-for-ai"
+version = "0.1.0"
+description = "Validate JSON-LD templates tuned for how AI assistants extract and cite information. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Logan Adams", email = "hello@clearcited.com" }]
+keywords = ["aeo", "geo", "ai-search", "citation", "structured-data"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://clearcited.com/"
+Source = "https://github.com/Clear-Cited/schema-for-ai"
+
+[project.scripts]
+schema-for-ai = "validate:main"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["validate.py"]
