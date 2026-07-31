@@ -1,0 +1,25 @@
+{
+  "title": "schema-for-ai: JSON-LD templates tuned for AI extraction and citation",
+  "upload_type": "software",
+  "description": "<p>Copy-paste JSON-LD templates tuned for how AI assistants extract and cite information. Structured data helps ChatGPT, Perplexity, Gemini and Google AI resolve what a product is and pull clean facts into answers.</p><p>Includes a dependency-free Python validator. Python standard library only.</p><p><strong>Note:</strong> structured data is published here for machine-readability and general good practice. We make no claim that it increases the likelihood of citation by an AI answer engine — the one controlled study on that question found a null result once ranking position was controlled for.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Adams, Logan",
+      "orcid": "REPLACE-WITH-YOUR-ORCID",
+      "affiliation": "Clear Cited"
+    }
+  ],
+  "keywords": [
+    "answer engine optimization",
+    "generative engine optimization",
+    "AI search",
+    "citation",
+    "structured data"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://github.com/Clear-Cited/schema-for-ai", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://clearcited.com/", "relation": "isSupplementTo", "scheme": "url" }
+  ]
+}
