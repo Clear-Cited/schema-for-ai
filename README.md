@@ -1,5 +1,9 @@
 # schema-for-ai
 
+[![PyPI](https://img.shields.io/pypi/v/schema-for-ai.svg)](https://pypi.org/project/schema-for-ai/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21757576.svg)](https://doi.org/10.5281/zenodo.21757576)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Copy-paste **JSON-LD** templates tuned for how AI assistants extract and cite
 information. Structured data helps ChatGPT, Perplexity, Gemini, and Google AI
 resolve *what your product is* and pull clean facts into answers — instead of
@@ -19,6 +23,22 @@ one?) and on **extractable facts** (price, category, FAQ answers). JSON-LD state
 those explicitly and unambiguously, which makes you easier to identify, trust, and
 quote. Pair it with a clean `llms.txt` (see our
 [llms-txt-generator](https://github.com/Clear-Cited/llms-txt-generator)).
+
+## Install
+
+```bash
+pip install schema-for-ai
+```
+
+That installs a `schema-for-ai` command that runs the validator. Cloning the repo
+and running `python validate.py` does the same thing. Python 3.9+, no dependencies.
+
+The templates below are copy-paste — they need no install at all. Each one also
+ships as a file under [`templates/`](templates/), ready to validate:
+
+```bash
+schema-for-ai templates/organization.example.jsonld
+```
 
 ## Validate
 
@@ -127,6 +147,21 @@ Helps AI understand your site structure and the page's place in it.
   is an entity signal).
 - Put real, useful FAQ answers — don't keyword-stuff. AI (and Google) penalize it.
 - Validate before shipping; a broken JSON-LD block is ignored entirely.
+
+## Cite this
+
+Every release is archived on Zenodo with a DOI, and the repo carries a
+`CITATION.cff` so GitHub’s **Cite this repository** box works.
+
+| | DOI |
+|---|---|
+| **Cite the software** (always resolves to the latest version) | [10.5281/zenodo.21757576](https://doi.org/10.5281/zenodo.21757576) |
+| **Cite this exact release** (v0.1.0) | [10.5281/zenodo.21757577](https://doi.org/10.5281/zenodo.21757577) |
+
+## Mirror
+
+Mirrored to Codeberg at <https://codeberg.org/clear-cited/schema-for-ai>, tags
+included, so the project does not depend on any single host.
 
 ## License
 
