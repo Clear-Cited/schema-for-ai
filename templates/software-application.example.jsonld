@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{Product Name}}",
+  "applicationCategory": "{{e.g. DeveloperApplication}}",
+  "operatingSystem": "{{e.g. Web, macOS, Linux}}",
+  "description": "{{What it does, for whom, key differentiator}}",
+  "offers": {
+    "@type": "Offer",
+    "price": "{{0.00}}",
+    "priceCurrency": "{{USD}}"
+  }
+}
