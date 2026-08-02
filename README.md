@@ -148,6 +148,19 @@ Helps AI understand your site structure and the page's place in it.
 - Put real, useful FAQ answers — don't keyword-stuff. AI (and Google) penalize it.
 - Validate before shipping; a broken JSON-LD block is ignored entirely.
 
+## Related tools
+
+Part of a set of five, all MIT-licensed and each archived on Zenodo with a DOI.
+Find what is missing, fix it, then measure whether it moved.
+
+| Tool | What it does |
+|---|---|
+| [`aeo-audit-lite`](https://github.com/Clear-Cited/aeo-audit-lite) | measure your share of model against competitors, with a confidence interval |
+| [`citation-ready`](https://github.com/Clear-Cited/citation-ready) | check whether a page carries the signals cited pages tend to carry |
+| **schema-for-ai** | JSON-LD templates tuned for AI extraction, plus a validator — *you are here* |
+| [`schema-generator`](https://github.com/Clear-Cited/schema-generator) | build Organization / Product / FAQPage JSON-LD in your browser |
+| [`llms-txt-generator`](https://github.com/Clear-Cited/llms-txt-generator) | generate an llms.txt for your site, in your browser |
+
 ## Cite this
 
 Every release is archived on Zenodo with a DOI, and the repo carries a
