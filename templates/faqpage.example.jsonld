@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "{{A real question a buyer asks}}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{A clear, self-contained answer in 1-3 sentences}}"
+      }
+    }
+  ]
+}
