@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "schema-for-ai"
 abstract: "JSON-LD template pack and validator for structured data that AI engines can parse."
+type: software
+version: "0.1.0"
+date-released: "2026-08-02"
 authors:
   - family-names: "Adams"
     given-names: "Logan"
@@ -10,15 +13,18 @@ authors:
 repository-code: "https://github.com/Clear-Cited/schema-for-ai"
 url: "https://clearcited.com"
 license: MIT
-version: "1.0.0"
-date-released: "2026-07-27"
 keywords:
   - answer-engine-optimization
   - generative-engine-optimization
   - ai-search
   - large-language-models
-```
-swh:1:dir:6522ee0039e55a8df410952e70c53e3b116cfb5b;
-origin=https://github.com/Clear-Cited/schema-for-ai;
-visit=swh:1:snp:47e4a266290fb6706ce9ca9c961cc23ebe04a4c9;
-anchor=swh:1:rev:65aa7c573cd3749b4343cd154670f7de6687da8b
+identifiers:
+  - type: swh
+    value: "swh:1:dir:6522ee0039e55a8df410952e70c53e3b116cfb5b"
+    description: "Software Heritage directory for the schema-for-ai repository"
+  - type: swh
+    value: "swh:1:snp:47e4a266290fb6706ce9ca9c961cc23ebe04a4c9"
+    description: "Software Heritage snapshot"
+  - type: swh
+    value: "swh:1:rev:65aa7c573cd3749b4343cd154670f7de6687da8b"
+    description: "Software Heritage revision"
