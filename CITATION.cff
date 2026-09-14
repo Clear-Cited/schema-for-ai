@@ -7,7 +7,7 @@ version: "0.1.0"
 date-released: "2026-08-02"
 authors:
   - family-names: "Adams"
-    given-names: "Logan"
+    given-names: "Logan E"
     orcid: "https://orcid.org/0009-0009-1235-9479"
     affiliation: "Clear Cited"
 repository-code: "https://github.com/Clear-Cited/schema-for-ai"
